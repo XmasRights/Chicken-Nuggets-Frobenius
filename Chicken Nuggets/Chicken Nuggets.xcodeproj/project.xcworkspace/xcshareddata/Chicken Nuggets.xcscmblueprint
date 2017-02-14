@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "93E292CB77ABDC0C3817FB9CBC4EDF423E8FF461",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8D2F5D9A540E81B320A7504B7CCC907E47E025FD" : 9223372036854775807,
+    "93E292CB77ABDC0C3817FB9CBC4EDF423E8FF461" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "838E3D73-5ECF-42CD-8E30-61B1A4CB97A3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8D2F5D9A540E81B320A7504B7CCC907E47E025FD" : "ChickenNuggets\/SearchTreeKit\/",
+    "93E292CB77ABDC0C3817FB9CBC4EDF423E8FF461" : "ChickenNuggets\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Chicken Nuggets",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Chicken Nuggets\/Chicken Nuggets.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:XmasRights\/SearchTreeKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8D2F5D9A540E81B320A7504B7CCC907E47E025FD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:XmasRights\/Chicken-Nuggets-Frobenius.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "93E292CB77ABDC0C3817FB9CBC4EDF423E8FF461"
+    }
+  ]
+}

@@ -10,7 +10,39 @@
 		4B3CB78F1E533C2200857450 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3CB78E1E533C2200857450 /* AppDelegate.swift */; };
 		4B3CB7911E533C2200857450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3CB7901E533C2200857450 /* Assets.xcassets */; };
 		4B3CB7941E533C2200857450 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3CB7921E533C2200857450 /* MainMenu.xib */; };
+		4B3CB7AA1E533CF100857450 /* SearchTreeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3CB7A31E533CE600857450 /* SearchTreeKit.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B3CB7A21E533CE600857450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3CB79B1E533CE600857450 /* SearchTreeKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B6064DE1E1A106C00172FA6;
+			remoteInfo = SearchTreeKit;
+		};
+		4B3CB7A41E533CE600857450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3CB79B1E533CE600857450 /* SearchTreeKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B6064E71E1A106C00172FA6;
+			remoteInfo = SearchTreeKitTests;
+		};
+		4B3CB7A61E533CE600857450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3CB79B1E533CE600857450 /* SearchTreeKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B6064FD1E1A109000172FA6;
+			remoteInfo = "SearchTreeKit iOS";
+		};
+		4B3CB7A81E533CE600857450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3CB79B1E533CE600857450 /* SearchTreeKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B6065051E1A109000172FA6;
+			remoteInfo = "SearchTreeKit iOSTests";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4B3CB78B1E533C2200857450 /* Chicken Nuggets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chicken Nuggets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -18,6 +50,7 @@
 		4B3CB7901E533C2200857450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B3CB7931E533C2200857450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4B3CB7951E533C2200857450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3CB79B1E533CE600857450 /* SearchTreeKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SearchTreeKit.xcodeproj; path = ../SearchTreeKit/SearchTreeKit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B3CB7AA1E533CF100857450 /* SearchTreeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +68,7 @@
 		4B3CB7821E533C2200857450 = {
 			isa = PBXGroup;
 			children = (
+				4B3CB79B1E533CE600857450 /* SearchTreeKit.xcodeproj */,
 				4B3CB78D1E533C2200857450 /* Chicken Nuggets */,
 				4B3CB78C1E533C2200857450 /* Products */,
 			);
@@ -56,6 +91,17 @@
 				4B3CB7951E533C2200857450 /* Info.plist */,
 			);
 			path = "Chicken Nuggets";
+			sourceTree = "<group>";
+		};
+		4B3CB79C1E533CE600857450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B3CB7A31E533CE600857450 /* SearchTreeKit.framework */,
+				4B3CB7A51E533CE600857450 /* SearchTreeKitTests.xctest */,
+				4B3CB7A71E533CE600857450 /* SearchTreeKit.framework */,
+				4B3CB7A91E533CE600857450 /* SearchTreeKit iOSTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,12 +152,49 @@
 			mainGroup = 4B3CB7821E533C2200857450;
 			productRefGroup = 4B3CB78C1E533C2200857450 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4B3CB79C1E533CE600857450 /* Products */;
+					ProjectRef = 4B3CB79B1E533CE600857450 /* SearchTreeKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4B3CB78A1E533C2200857450 /* Chicken Nuggets */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4B3CB7A31E533CE600857450 /* SearchTreeKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SearchTreeKit.framework;
+			remoteRef = 4B3CB7A21E533CE600857450 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4B3CB7A51E533CE600857450 /* SearchTreeKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SearchTreeKitTests.xctest;
+			remoteRef = 4B3CB7A41E533CE600857450 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4B3CB7A71E533CE600857450 /* SearchTreeKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SearchTreeKit.framework;
+			remoteRef = 4B3CB7A61E533CE600857450 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4B3CB7A91E533CE600857450 /* SearchTreeKit iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SearchTreeKit iOSTests.xctest";
+			remoteRef = 4B3CB7A81E533CE600857450 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4B3CB7891E533C2200857450 /* Resources */ = {
