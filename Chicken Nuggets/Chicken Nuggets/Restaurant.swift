@@ -1,5 +1,5 @@
 //
-//  Nuggets.swift
+//  Restaurant.swift
 //  Chicken Nuggets
 //
 //  Created by Christopher Fonseka on 14/02/2017.

@@ -11,7 +11,7 @@
 		4B3CB7911E533C2200857450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3CB7901E533C2200857450 /* Assets.xcassets */; };
 		4B3CB7941E533C2200857450 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3CB7921E533C2200857450 /* MainMenu.xib */; };
 		4B3CB7AA1E533CF100857450 /* SearchTreeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3CB7A31E533CE600857450 /* SearchTreeKit.framework */; };
-		4B3CB7AC1E533D4A00857450 /* Nuggets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3CB7AB1E533D4A00857450 /* Nuggets.swift */; };
+		4B3CB7AC1E533D4A00857450 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3CB7AB1E533D4A00857450 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		4B3CB7931E533C2200857450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4B3CB7951E533C2200857450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B3CB79B1E533CE600857450 /* SearchTreeKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SearchTreeKit.xcodeproj; path = ../SearchTreeKit/SearchTreeKit.xcodeproj; sourceTree = "<group>"; };
-		4B3CB7AB1E533D4A00857450 /* Nuggets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nuggets.swift; sourceTree = "<group>"; };
+		4B3CB7AB1E533D4A00857450 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				4B3CB78E1E533C2200857450 /* AppDelegate.swift */,
-				4B3CB7AB1E533D4A00857450 /* Nuggets.swift */,
+				4B3CB7AB1E533D4A00857450 /* Restaurant.swift */,
 				4B3CB7901E533C2200857450 /* Assets.xcassets */,
 				4B3CB7921E533C2200857450 /* MainMenu.xib */,
 				4B3CB7951E533C2200857450 /* Info.plist */,
@@ -217,7 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B3CB78F1E533C2200857450 /* AppDelegate.swift in Sources */,
-				4B3CB7AC1E533D4A00857450 /* Nuggets.swift in Sources */,
+				4B3CB7AC1E533D4A00857450 /* Restaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
