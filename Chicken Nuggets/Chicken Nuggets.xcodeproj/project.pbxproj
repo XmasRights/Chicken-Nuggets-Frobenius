@@ -7,23 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B1B6D4B1E52745700E2C217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B6D4A1E52745700E2C217 /* AppDelegate.swift */; };
-		4B1B6D4D1E52745700E2C217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B6D4C1E52745700E2C217 /* ViewController.swift */; };
-		4B1B6D4F1E52745700E2C217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1B6D4E1E52745700E2C217 /* Assets.xcassets */; };
-		4B1B6D521E52745700E2C217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1B6D501E52745700E2C217 /* Main.storyboard */; };
+		4B3CB78F1E533C2200857450 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3CB78E1E533C2200857450 /* AppDelegate.swift */; };
+		4B3CB7911E533C2200857450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3CB7901E533C2200857450 /* Assets.xcassets */; };
+		4B3CB7941E533C2200857450 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3CB7921E533C2200857450 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B1B6D471E52745700E2C217 /* Chicken Nuggets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chicken Nuggets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B1B6D4A1E52745700E2C217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B1B6D4C1E52745700E2C217 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4B1B6D4E1E52745700E2C217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4B1B6D511E52745700E2C217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4B1B6D531E52745700E2C217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3CB78B1E533C2200857450 /* Chicken Nuggets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chicken Nuggets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3CB78E1E533C2200857450 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B3CB7901E533C2200857450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B3CB7931E533C2200857450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4B3CB7951E533C2200857450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4B1B6D441E52745700E2C217 /* Frameworks */ = {
+		4B3CB7881E533C2200857450 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,30 +31,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4B1B6D3E1E52745700E2C217 = {
+		4B3CB7821E533C2200857450 = {
 			isa = PBXGroup;
 			children = (
-				4B1B6D491E52745700E2C217 /* Chicken Nuggets */,
-				4B1B6D481E52745700E2C217 /* Products */,
+				4B3CB78D1E533C2200857450 /* Chicken Nuggets */,
+				4B3CB78C1E533C2200857450 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4B1B6D481E52745700E2C217 /* Products */ = {
+		4B3CB78C1E533C2200857450 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B1B6D471E52745700E2C217 /* Chicken Nuggets.app */,
+				4B3CB78B1E533C2200857450 /* Chicken Nuggets.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B1B6D491E52745700E2C217 /* Chicken Nuggets */ = {
+		4B3CB78D1E533C2200857450 /* Chicken Nuggets */ = {
 			isa = PBXGroup;
 			children = (
-				4B1B6D4A1E52745700E2C217 /* AppDelegate.swift */,
-				4B1B6D4C1E52745700E2C217 /* ViewController.swift */,
-				4B1B6D4E1E52745700E2C217 /* Assets.xcassets */,
-				4B1B6D501E52745700E2C217 /* Main.storyboard */,
-				4B1B6D531E52745700E2C217 /* Info.plist */,
+				4B3CB78E1E533C2200857450 /* AppDelegate.swift */,
+				4B3CB7901E533C2200857450 /* Assets.xcassets */,
+				4B3CB7921E533C2200857450 /* MainMenu.xib */,
+				4B3CB7951E533C2200857450 /* Info.plist */,
 			);
 			path = "Chicken Nuggets";
 			sourceTree = "<group>";
@@ -64,13 +61,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B1B6D461E52745700E2C217 /* Chicken Nuggets */ = {
+		4B3CB78A1E533C2200857450 /* Chicken Nuggets */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B1B6D561E52745700E2C217 /* Build configuration list for PBXNativeTarget "Chicken Nuggets" */;
+			buildConfigurationList = 4B3CB7981E533C2200857450 /* Build configuration list for PBXNativeTarget "Chicken Nuggets" */;
 			buildPhases = (
-				4B1B6D431E52745700E2C217 /* Sources */,
-				4B1B6D441E52745700E2C217 /* Frameworks */,
-				4B1B6D451E52745700E2C217 /* Resources */,
+				4B3CB7871E533C2200857450 /* Sources */,
+				4B3CB7881E533C2200857450 /* Frameworks */,
+				4B3CB7891E533C2200857450 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -78,27 +75,27 @@
 			);
 			name = "Chicken Nuggets";
 			productName = "Chicken Nuggets";
-			productReference = 4B1B6D471E52745700E2C217 /* Chicken Nuggets.app */;
+			productReference = 4B3CB78B1E533C2200857450 /* Chicken Nuggets.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4B1B6D3F1E52745700E2C217 /* Project object */ = {
+		4B3CB7831E533C2200857450 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Christopher Fonseka";
+				ORGANIZATIONNAME = ChristopherFonseka;
 				TargetAttributes = {
-					4B1B6D461E52745700E2C217 = {
+					4B3CB78A1E533C2200857450 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = LH8455G983;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 4B1B6D421E52745700E2C217 /* Build configuration list for PBXProject "Chicken Nuggets" */;
+			buildConfigurationList = 4B3CB7861E533C2200857450 /* Build configuration list for PBXProject "Chicken Nuggets" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -106,53 +103,52 @@
 				en,
 				Base,
 			);
-			mainGroup = 4B1B6D3E1E52745700E2C217;
-			productRefGroup = 4B1B6D481E52745700E2C217 /* Products */;
+			mainGroup = 4B3CB7821E533C2200857450;
+			productRefGroup = 4B3CB78C1E533C2200857450 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B1B6D461E52745700E2C217 /* Chicken Nuggets */,
+				4B3CB78A1E533C2200857450 /* Chicken Nuggets */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4B1B6D451E52745700E2C217 /* Resources */ = {
+		4B3CB7891E533C2200857450 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B1B6D4F1E52745700E2C217 /* Assets.xcassets in Resources */,
-				4B1B6D521E52745700E2C217 /* Main.storyboard in Resources */,
+				4B3CB7911E533C2200857450 /* Assets.xcassets in Resources */,
+				4B3CB7941E533C2200857450 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4B1B6D431E52745700E2C217 /* Sources */ = {
+		4B3CB7871E533C2200857450 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B1B6D4D1E52745700E2C217 /* ViewController.swift in Sources */,
-				4B1B6D4B1E52745700E2C217 /* AppDelegate.swift in Sources */,
+				4B3CB78F1E533C2200857450 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4B1B6D501E52745700E2C217 /* Main.storyboard */ = {
+		4B3CB7921E533C2200857450 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4B1B6D511E52745700E2C217 /* Base */,
+				4B3CB7931E533C2200857450 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4B1B6D541E52745700E2C217 /* Debug */ = {
+		4B3CB7961E533C2200857450 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -201,7 +197,7 @@
 			};
 			name = Debug;
 		};
-		4B1B6D551E52745700E2C217 /* Release */ = {
+		4B3CB7971E533C2200857450 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +238,7 @@
 			};
 			name = Release;
 		};
-		4B1B6D571E52745700E2C217 /* Debug */ = {
+		4B3CB7991E533C2200857450 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -250,13 +246,13 @@
 				DEVELOPMENT_TEAM = LH8455G983;
 				INFOPLIST_FILE = "Chicken Nuggets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.christopherfonseka.Chicken-Nuggets";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christopherFonseka.Chicken-Nuggets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		4B1B6D581E52745700E2C217 /* Release */ = {
+		4B3CB79A1E533C2200857450 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -264,7 +260,7 @@
 				DEVELOPMENT_TEAM = LH8455G983;
 				INFOPLIST_FILE = "Chicken Nuggets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.christopherfonseka.Chicken-Nuggets";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christopherFonseka.Chicken-Nuggets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -273,24 +269,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B1B6D421E52745700E2C217 /* Build configuration list for PBXProject "Chicken Nuggets" */ = {
+		4B3CB7861E533C2200857450 /* Build configuration list for PBXProject "Chicken Nuggets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B1B6D541E52745700E2C217 /* Debug */,
-				4B1B6D551E52745700E2C217 /* Release */,
+				4B3CB7961E533C2200857450 /* Debug */,
+				4B3CB7971E533C2200857450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B1B6D561E52745700E2C217 /* Build configuration list for PBXNativeTarget "Chicken Nuggets" */ = {
+		4B3CB7981E533C2200857450 /* Build configuration list for PBXNativeTarget "Chicken Nuggets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B1B6D571E52745700E2C217 /* Debug */,
-				4B1B6D581E52745700E2C217 /* Release */,
+				4B3CB7991E533C2200857450 /* Debug */,
+				4B3CB79A1E533C2200857450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4B1B6D3F1E52745700E2C217 /* Project object */;
+	rootObject = 4B3CB7831E533C2200857450 /* Project object */;
 }

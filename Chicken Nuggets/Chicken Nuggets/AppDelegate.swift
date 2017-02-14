@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Chicken Nuggets
 //
-//  Created by Christopher Fonseka on 13/02/2017.
-//  Copyright © 2017 Christopher Fonseka. All rights reserved.
+//  Created by Christopher Fonseka on 14/02/2017.
+//  Copyright © 2017 ChristopherFonseka. All rights reserved.
 //
 
 import Cocoa
@@ -11,6 +11,7 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
+    @IBOutlet weak var window: NSWindow!
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
