@@ -14,8 +14,21 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     @IBOutlet weak var window: NSWindow!
 
 
-    func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+    func applicationDidFinishLaunching(_ aNotification: Notification)
+    {
+        let restaurant = Restaurant()
+
+        for nuggets in 40...70
+        {
+            guard let result = restaurant.buy(nuggets: nuggets) else
+            {
+                print("Cannot buy exactly \(nuggets) nuggets\n")
+                continue
+            }
+
+            print("To buy \(nuggets) nuggets")
+            print(result.log)
+        }
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
