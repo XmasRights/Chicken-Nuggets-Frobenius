@@ -35,7 +35,7 @@ struct Restaurant
 
     private func end (nuggets: Int) -> (Nuggets) -> SearchTreeKit.Result
     {
-        let end = { (n: Nuggets) -> SearchTreeKit.Result in
+        return { (n: Nuggets) -> SearchTreeKit.Result in
             switch n.value
             {
             case _ where n.value == nuggets: return .Pass
@@ -43,6 +43,5 @@ struct Restaurant
             default:                         return .Continue
             }
         }
-        return end
     }
 }
