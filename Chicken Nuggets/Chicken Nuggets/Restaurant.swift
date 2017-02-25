@@ -15,7 +15,7 @@ struct Restaurant
 {
     func buy(nuggets: Int) -> Nuggets?
     {
-        precondition(nuggets >= 0)
+        precondition(nuggets > 0)
         return SearchTreeKit.breadthFirstSearch(start: Nuggets(0), actions: actions(), end: end(nuggets: nuggets))
     }
 
